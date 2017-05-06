@@ -1,6 +1,7 @@
 # SQL-SERVER
 
 SELECT getdate() , dateadd(dd, datediff(dd, 0, getdate()), 0)
+
 SELECT DATEADD(ms, -3, dateadd(dd, datediff(dd, 0, getdate()), 1))
 
 
